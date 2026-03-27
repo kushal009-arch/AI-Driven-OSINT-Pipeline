@@ -25,7 +25,7 @@ Integration: Discord Webhooks, RSS/XML
 Clone the Repository:
 
 Bash
-git clone https://github.com/your-username/GeoIntel-Sentinel.git
+git clone https://github.com/kushal009-arch/GeoIntel-Sentinel.git
 Import to n8n:
 
 Open your n8n instance.
