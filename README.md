@@ -20,3 +20,26 @@ Automation: n8n
 AI/LLM: Google Gemini 1.5 Flash
 
 Integration: Discord Webhooks, RSS/XML
+
+🚀 How to Deploy
+Clone the Repository:
+
+Bash
+git clone https://github.com/your-username/GeoIntel-Sentinel.git
+Import to n8n:
+
+Open your n8n instance.
+
+Create a new workflow.
+
+Click the Settings menu (three dots) and select Import from File.
+
+Choose the workflow.json from this repository.
+
+Setup Credentials:
+
+Google Gemini: Add your API Key to the Google Gemini Chat Model node.
+
+Discord: Create a Webhook in your Discord Server settings and paste the URL into the Discord node.
+
+Execute: Click "Execute Workflow" to pull the latest intelligence brief.
